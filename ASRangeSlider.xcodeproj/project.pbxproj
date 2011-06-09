@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC0C068E13A0D144008530DC /* UIViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0C068A13A0D144008530DC /* UIViewExtensions.m */; };
+		CC0C068F13A0D144008530DC /* UIViewControllerExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0C068D13A0D144008530DC /* UIViewControllerExtensions.m */; };
+		CC300DE713A0C5B2009485EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC300DE613A0C5B2009485EC /* UIKit.framework */; };
+		CC300DE913A0C5B2009485EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC300DE813A0C5B2009485EC /* Foundation.framework */; };
+		CC300DEB13A0C5B2009485EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC300DEA13A0C5B2009485EC /* CoreGraphics.framework */; };
+		CC300DF113A0C5B2009485EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC300DEF13A0C5B2009485EC /* InfoPlist.strings */; };
+		CC300DF413A0C5B2009485EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC300DF313A0C5B2009485EC /* main.m */; };
+		CC300DFA13A0C5B2009485EC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC300DF813A0C5B2009485EC /* MainWindow.xib */; };
+		CC300E1113A0C62F009485EC /* ASRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CC300E0813A0C62F009485EC /* ASRangeSlider.m */; };
+		CC300E1213A0C62F009485EC /* SliderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC300E0A13A0C62F009485EC /* SliderThumbView.m */; };
+		CC300E1313A0C62F009485EC /* ASRangeSliderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC300E0D13A0C62F009485EC /* ASRangeSliderAppDelegate.m */; };
+		CC300E1413A0C62F009485EC /* ASRangeSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC300E1013A0C62F009485EC /* ASRangeSliderViewController.m */; };
+		CCEE38BE13A0C7E100B3A7CB /* ASRangeSliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCEE38BD13A0C7E100B3A7CB /* ASRangeSliderViewController.xib */; };
+		CCEE38C813A0CC3E00B3A7CB /* blank-button-round-black-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = CCEE38C013A0CC3E00B3A7CB /* blank-button-round-black-glass.png */; };
+		CCEE38C913A0CC3E00B3A7CB /* blank-button-round-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = CCEE38C113A0CC3E00B3A7CB /* blank-button-round-blue.png */; };
+		CCEE38CA13A0CC3E00B3A7CB /* dark-green-round-glass-button.png in Resources */ = {isa = PBXBuildFile; fileRef = CCEE38C213A0CC3E00B3A7CB /* dark-green-round-glass-button.png */; };
+		CCEE38CB13A0CC3E00B3A7CB /* dark-purple-glass-but.png in Resources */ = {isa = PBXBuildFile; fileRef = CCEE38C313A0CC3E00B3A7CB /* dark-purple-glass-but.png */; };
+		CCEE38CD13A0CC3E00B3A7CB /* glass-round-red-green-button.png in Resources */ = {isa = PBXBuildFile; fileRef = CCEE38C513A0CC3E00B3A7CB /* glass-round-red-green-button.png */; };
+		CCEE38CE13A0CC3E00B3A7CB /* slider-handle.png in Resources */ = {isa = PBXBuildFile; fileRef = CCEE38C613A0CC3E00B3A7CB /* slider-handle.png */; };
+		CCEE38CF13A0CC3E00B3A7CB /* slider-track-right.png in Resources */ = {isa = PBXBuildFile; fileRef = CCEE38C713A0CC3E00B3A7CB /* slider-track-right.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC0C068913A0D144008530DC /* UIViewExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExtensions.h; sourceTree = "<group>"; };
+		CC0C068A13A0D144008530DC /* UIViewExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExtensions.m; sourceTree = "<group>"; };
+		CC0C068C13A0D144008530DC /* UIViewControllerExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerExtensions.h; sourceTree = "<group>"; };
+		CC0C068D13A0D144008530DC /* UIViewControllerExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerExtensions.m; sourceTree = "<group>"; };
+		CC300DE213A0C5B2009485EC /* ASRangeSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASRangeSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC300DE613A0C5B2009485EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC300DE813A0C5B2009485EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC300DEA13A0C5B2009485EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC300DEE13A0C5B2009485EC /* ASRangeSlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASRangeSlider-Info.plist"; sourceTree = "<group>"; };
+		CC300DF013A0C5B2009485EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC300DF213A0C5B2009485EC /* ASRangeSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASRangeSlider-Prefix.pch"; sourceTree = "<group>"; };
+		CC300DF313A0C5B2009485EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC300DF913A0C5B2009485EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CC300E0713A0C62F009485EC /* ASRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRangeSlider.h; sourceTree = "<group>"; };
+		CC300E0813A0C62F009485EC /* ASRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASRangeSlider.m; sourceTree = "<group>"; };
+		CC300E0913A0C62F009485EC /* SliderThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderThumbView.h; sourceTree = "<group>"; };
+		CC300E0A13A0C62F009485EC /* SliderThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderThumbView.m; sourceTree = "<group>"; };
+		CC300E0C13A0C62F009485EC /* ASRangeSliderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRangeSliderAppDelegate.h; sourceTree = "<group>"; };
+		CC300E0D13A0C62F009485EC /* ASRangeSliderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASRangeSliderAppDelegate.m; sourceTree = "<group>"; };
+		CC300E0F13A0C62F009485EC /* ASRangeSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRangeSliderViewController.h; sourceTree = "<group>"; };
+		CC300E1013A0C62F009485EC /* ASRangeSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASRangeSliderViewController.m; sourceTree = "<group>"; };
+		CCEE38BD13A0C7E100B3A7CB /* ASRangeSliderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASRangeSliderViewController.xib; sourceTree = "<group>"; };
+		CCEE38C013A0CC3E00B3A7CB /* blank-button-round-black-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blank-button-round-black-glass.png"; sourceTree = "<group>"; };
+		CCEE38C113A0CC3E00B3A7CB /* blank-button-round-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blank-button-round-blue.png"; sourceTree = "<group>"; };
+		CCEE38C213A0CC3E00B3A7CB /* dark-green-round-glass-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-green-round-glass-button.png"; sourceTree = "<group>"; };
+		CCEE38C313A0CC3E00B3A7CB /* dark-purple-glass-but.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-purple-glass-but.png"; sourceTree = "<group>"; };
+		CCEE38C513A0CC3E00B3A7CB /* glass-round-red-green-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glass-round-red-green-button.png"; sourceTree = "<group>"; };
+		CCEE38C613A0CC3E00B3A7CB /* slider-handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-handle.png"; sourceTree = "<group>"; };
+		CCEE38C713A0CC3E00B3A7CB /* slider-track-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-track-right.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC300DDF13A0C5B2009485EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC300DE713A0C5B2009485EC /* UIKit.framework in Frameworks */,
+				CC300DE913A0C5B2009485EC /* Foundation.framework in Frameworks */,
+				CC300DEB13A0C5B2009485EC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC0C068713A0D144008530DC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CC0C068813A0D144008530DC /* UIView */,
+				CC0C068B13A0D144008530DC /* UIViewController */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CC0C068813A0D144008530DC /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				CC0C068913A0D144008530DC /* UIViewExtensions.h */,
+				CC0C068A13A0D144008530DC /* UIViewExtensions.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		CC0C068B13A0D144008530DC /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC0C068C13A0D144008530DC /* UIViewControllerExtensions.h */,
+				CC0C068D13A0D144008530DC /* UIViewControllerExtensions.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		CC300DD713A0C5B1009485EC = {
+			isa = PBXGroup;
+			children = (
+				CC300DEC13A0C5B2009485EC /* ASRangeSlider */,
+				CC300DE513A0C5B2009485EC /* Frameworks */,
+				CC300DE313A0C5B2009485EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC300DE313A0C5B2009485EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC300DE213A0C5B2009485EC /* ASRangeSlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC300DE513A0C5B2009485EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC300DE613A0C5B2009485EC /* UIKit.framework */,
+				CC300DE813A0C5B2009485EC /* Foundation.framework */,
+				CC300DEA13A0C5B2009485EC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC300DEC13A0C5B2009485EC /* ASRangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				CC0C068713A0D144008530DC /* Extensions */,
+				CCEE38BF13A0CC3E00B3A7CB /* Graphics */,
+				CC300E0613A0C62F009485EC /* ASRangeSlider Class */,
+				CC300E0B13A0C62F009485EC /* Other Sources */,
+				CC300E0E13A0C62F009485EC /* View Controllers */,
+				CC300DF813A0C5B2009485EC /* MainWindow.xib */,
+				CC300DED13A0C5B2009485EC /* Supporting Files */,
+			);
+			path = ASRangeSlider;
+			sourceTree = "<group>";
+		};
+		CC300DED13A0C5B2009485EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC300DEE13A0C5B2009485EC /* ASRangeSlider-Info.plist */,
+				CC300DEF13A0C5B2009485EC /* InfoPlist.strings */,
+				CC300DF213A0C5B2009485EC /* ASRangeSlider-Prefix.pch */,
+				CC300DF313A0C5B2009485EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC300E0613A0C62F009485EC /* ASRangeSlider Class */ = {
+			isa = PBXGroup;
+			children = (
+				CC300E0713A0C62F009485EC /* ASRangeSlider.h */,
+				CC300E0813A0C62F009485EC /* ASRangeSlider.m */,
+				CC300E0913A0C62F009485EC /* SliderThumbView.h */,
+				CC300E0A13A0C62F009485EC /* SliderThumbView.m */,
+			);
+			path = "ASRangeSlider Class";
+			sourceTree = "<group>";
+		};
+		CC300E0B13A0C62F009485EC /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CC300E0C13A0C62F009485EC /* ASRangeSliderAppDelegate.h */,
+				CC300E0D13A0C62F009485EC /* ASRangeSliderAppDelegate.m */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CC300E0E13A0C62F009485EC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCEE38BD13A0C7E100B3A7CB /* ASRangeSliderViewController.xib */,
+				CC300E0F13A0C62F009485EC /* ASRangeSliderViewController.h */,
+				CC300E1013A0C62F009485EC /* ASRangeSliderViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CCEE38BF13A0CC3E00B3A7CB /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				CCEE38C013A0CC3E00B3A7CB /* blank-button-round-black-glass.png */,
+				CCEE38C113A0CC3E00B3A7CB /* blank-button-round-blue.png */,
+				CCEE38C213A0CC3E00B3A7CB /* dark-green-round-glass-button.png */,
+				CCEE38C313A0CC3E00B3A7CB /* dark-purple-glass-but.png */,
+				CCEE38C513A0CC3E00B3A7CB /* glass-round-red-green-button.png */,
+				CCEE38C613A0CC3E00B3A7CB /* slider-handle.png */,
+				CCEE38C713A0CC3E00B3A7CB /* slider-track-right.png */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC300DE113A0C5B2009485EC /* ASRangeSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC300E0313A0C5B2009485EC /* Build configuration list for PBXNativeTarget "ASRangeSlider" */;
+			buildPhases = (
+				CC300DDE13A0C5B2009485EC /* Sources */,
+				CC300DDF13A0C5B2009485EC /* Frameworks */,
+				CC300DE013A0C5B2009485EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASRangeSlider;
+			productName = ASRangeSlider;
+			productReference = CC300DE213A0C5B2009485EC /* ASRangeSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC300DD913A0C5B1009485EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "caras and associates";
+			};
+			buildConfigurationList = CC300DDC13A0C5B1009485EC /* Build configuration list for PBXProject "ASRangeSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC300DD713A0C5B1009485EC;
+			productRefGroup = CC300DE313A0C5B2009485EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC300DE113A0C5B2009485EC /* ASRangeSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC300DE013A0C5B2009485EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC300DF113A0C5B2009485EC /* InfoPlist.strings in Resources */,
+				CC300DFA13A0C5B2009485EC /* MainWindow.xib in Resources */,
+				CCEE38BE13A0C7E100B3A7CB /* ASRangeSliderViewController.xib in Resources */,
+				CCEE38C813A0CC3E00B3A7CB /* blank-button-round-black-glass.png in Resources */,
+				CCEE38C913A0CC3E00B3A7CB /* blank-button-round-blue.png in Resources */,
+				CCEE38CA13A0CC3E00B3A7CB /* dark-green-round-glass-button.png in Resources */,
+				CCEE38CB13A0CC3E00B3A7CB /* dark-purple-glass-but.png in Resources */,
+				CCEE38CD13A0CC3E00B3A7CB /* glass-round-red-green-button.png in Resources */,
+				CCEE38CE13A0CC3E00B3A7CB /* slider-handle.png in Resources */,
+				CCEE38CF13A0CC3E00B3A7CB /* slider-track-right.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC300DDE13A0C5B2009485EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC300DF413A0C5B2009485EC /* main.m in Sources */,
+				CC300E1113A0C62F009485EC /* ASRangeSlider.m in Sources */,
+				CC300E1213A0C62F009485EC /* SliderThumbView.m in Sources */,
+				CC300E1313A0C62F009485EC /* ASRangeSliderAppDelegate.m in Sources */,
+				CC300E1413A0C62F009485EC /* ASRangeSliderViewController.m in Sources */,
+				CC0C068E13A0D144008530DC /* UIViewExtensions.m in Sources */,
+				CC0C068F13A0D144008530DC /* UIViewControllerExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC300DEF13A0C5B2009485EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC300DF013A0C5B2009485EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC300DF813A0C5B2009485EC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC300DF913A0C5B2009485EC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC300E0113A0C5B2009485EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC300E0213A0C5B2009485EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CC300E0413A0C5B2009485EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASRangeSlider/ASRangeSlider-Prefix.pch";
+				INFOPLIST_FILE = "ASRangeSlider/ASRangeSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC300E0513A0C5B2009485EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASRangeSlider/ASRangeSlider-Prefix.pch";
+				INFOPLIST_FILE = "ASRangeSlider/ASRangeSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC300DDC13A0C5B1009485EC /* Build configuration list for PBXProject "ASRangeSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC300E0113A0C5B2009485EC /* Debug */,
+				CC300E0213A0C5B2009485EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC300E0313A0C5B2009485EC /* Build configuration list for PBXNativeTarget "ASRangeSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC300E0413A0C5B2009485EC /* Debug */,
+				CC300E0513A0C5B2009485EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC300DD913A0C5B1009485EC /* Project object */;
+}
